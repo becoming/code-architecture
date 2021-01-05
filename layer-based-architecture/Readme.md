@@ -5,7 +5,7 @@
 > Organizing your code in a meaningful manner helps when you want to 
 > maintain, extract parts of it, create libs, test, define the visibility.
 
-In a layer based architecture you group files in __packages__ by their technical meaning.
+In a layer based architecture you group files in __packages__ by their __TECHNICAL__ meaning.
 
 This can be useful when you are building __microservices__. 
 One microservice is supposed to do one job in one single domain.
