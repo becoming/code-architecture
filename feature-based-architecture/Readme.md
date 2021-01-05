@@ -32,12 +32,11 @@ Here's a list of commonly used packages and examples of files names inside:
 - __user__ - UserController, UserService, UserRepository, UserEntity.java, AddressEntity, CountryEntity, AddressValidationHelper
 - __card__ - CardController, CardService, CardRepository, CardEntity
 
-### Special cases
-
 Here's a visual example:
 
 ![](file-tree.png)
 
+### Special cases
 
 If one of the feature packages becomes large, you can always start using the layered based architecture within the feature package.
 At some point you'll start to think that it can be a good idea to extract this particular feature into a dedicated microservice.
