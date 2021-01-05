@@ -10,7 +10,9 @@ In a layer based architecture you group files in __packages__ by their __TECHNIC
 This can be useful when you are building __microservices__. 
 One microservice is supposed to do one job in one single domain.
 
-Examples: 
+### Use cases
+
+We have multiple microservices, one per use case:
  - manage the users.
    - _CRUD for a list of users._
  - image gallery.
@@ -21,6 +23,8 @@ Examples:
  - basket for a e-commerce website.
 
 Therefore, we are expected to have only one feature that is to be covered by the code of the µs in question.
+
+### Example 
 
 Here's a list of commonly used packages and examples of files names inside:
 

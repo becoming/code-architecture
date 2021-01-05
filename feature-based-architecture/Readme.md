@@ -17,26 +17,33 @@ attention of what class you change as it might impact multiple features at once.
 
 > The bigger the monolith is - the harder is to maintain it.
 
-Examples:
+### Use case
+
+We have one monolith for all the use cases:
 - manage the users.
 - __AND__ their image galleries.
 - __AND__ the uploaded files.
 - __AND__ a basket for this e-commerce website that sells images (_like https://www.shutterstock.com_).
+
+### Example 
 
 Here's a list of commonly used packages and examples of files names inside:
 
 - __user__ - UserController, UserService, UserRepository, UserEntity.java, AddressEntity, CountryEntity, AddressValidationHelper
 - __card__ - CardController, CardService, CardRepository, CardEntity
 
-If one of the feature packages becomes large, you can always start using the layered based architecture within the feature package.
-At some point you'll start to think that it can be a good idea to extract this particular feature into a dedicated microservice.
-Or an application that runs on its own.
-
-In some cases you might need some kind of __core__ package that hase the common functionality. 
-Generally speaking it is a good idea to extract this to a external library. Or create the needed function next to the actual usage.
-
-- __core__ - StringHelper
+### Special cases
 
 Here's a visual example:
 
 ![](file-tree.png)
+
+
+If one of the feature packages becomes large, you can always start using the layered based architecture within the feature package.
+At some point you'll start to think that it can be a good idea to extract this particular feature into a dedicated microservice.
+Or an application that runs on its own.
+
+In some cases you might need some kind of __core__ package that hase the common functionality.
+Generally speaking it is a good idea to extract this to a external library. Or create the needed function next to the actual usage.
+
+- __core__ - StringHelper
