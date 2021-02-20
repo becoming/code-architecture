@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>tech.becoming</groupId>
-        <artifactId>code-architecture</artifactId>
+        <groupId>tech.becoming.codearchitecture</groupId>
+        <artifactId>parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     
