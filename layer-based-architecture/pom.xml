@@ -4,12 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>fr.miage.idmc</groupId>
+        <groupId>tech.becoming</groupId>
         <artifactId>code-architecture</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>layer-based-architecture</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
 </project>
