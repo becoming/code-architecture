@@ -1,5 +1,10 @@
 package tech.becoming.codearchitecture.featurebased.user;
 
-public class UserService {
+class UserService {
+
+    public void buildOtherThing() {
+
+        cardService.buildTemplateCards();
+    }
 
 }
